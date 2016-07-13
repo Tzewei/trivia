@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+button{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+}
+
+.outerContainer{
+
+  max-width: 1000px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.header{
+  margin: 0 auto;
+}
+
+.mainContainer{
+
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.footerContainer{
+
+  margin: 0 auto;
+}
+
+#playerStatus{
+  margin: 0 auto;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #b2e1ff;
+  height: 60px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#displayAnswer{
+
+  background-color: #F4F0BB;
+  margin: 0 auto;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 60px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question{
+  
+  background-color: #F4F0BB;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  height: 60px;
+  border-radius: 5px;
+
+  width:60%;
+
+}
+
+#displayQuest{
+
+  background-color: #F4F0BB;
+  display: inline-block;
+
+}
+
+#displayQuestText{
+
+  background-color: #F4F0BB;
+  display: inline-block;
+
+}
+
+.scoreBox{
+  margin: 10px;
+}
+
+#p1ScoreBox,#p2ScoreBox {
+  /*border: 2px blue solid;*/
+  margin: 0 auto;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 60px;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+#p1ScoreBox {
+  background-color: #b2e1ff;
+}
+
+#p2ScoreBox {
+  background-color: #febbbb;
+}
+
+
+
+#restartButton{
+  background-color: grey;
+
+}
+
+#restartButton:hover{
+  background-color: pink;
+}
+
+.buttonBox:hover{
+  background-color: pink;
+}

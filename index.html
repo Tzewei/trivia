@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Trivia Quiz</title>
+
+    <link type="text/css" rel="stylesheet" href="./stylesheets/stylesheet.css" >
+    <<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class= "outerContainer" id="outerlayer">
+      <h1>Trivia Quiz</h1>
+      <div class= "header">
+
+        <button id="restartButton" type="button" name="button">Restart the Game</button>
+      </div>
+      <div class= "mainContainer">
+
+        <div class= 'scoreBox'>
+          <div id="p1ScoreBox">
+            P1ayer 1 score is 0.
+          </div>
+          <div id="p2ScoreBox">
+            P1ayer 2 score is 0.
+          </div>
+        </div>
+
+        <div id="playerStatus">Player</div>
+        <div id="displayAnswer">Answer True or False.</div>
+
+        <div class="question">
+          <div id="displayQuest">Question no</div>
+          <div id="displayQuestText">Question Text</div>
+
+
+        </div>
+
+        <div id= 'buttonContainer'>
+          <button class = buttonBox id = "trueButton" type="button" name="button">True</button>
+          <button class = buttonBox id = "falseButton" type="button" name="button">False</button>
+          <button class = buttonBox id = "nextButton" type="button" name="button">Next Question</button>
+        </div>
+      </div>
+      <div class= "footerContainer">
+        
+      </div>
+    </div>
+
+
+    <script src="./scripts/Trivia.js" charset="utf-8"></script>
+  </body>
+</html>
