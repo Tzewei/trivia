@@ -3,7 +3,6 @@
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-
 }
 
 body{
@@ -17,6 +16,7 @@ button{
   width: 200px;
   font-size: 20px;
   border-radius: 20px;
+  margin-top: 5px;
 }
 
 h1{
@@ -27,6 +27,7 @@ h1{
 .outerContainer{
 
   max-width: 1000px;
+  min-width:320px;
   padding: 5px;
   margin: 0 auto;
 }
@@ -36,14 +37,17 @@ h1{
 }
 
 .mainContainer{
-
   margin: 0 auto;
   padding: 5px;
 }
 
 .footerContainer{
-
   margin: 0 auto;
+}
+
+.answerContainer{
+  margin: 0 auto;
+  min-height: 100px;
 }
 
 #playerStatus{
@@ -57,9 +61,8 @@ h1{
 }
 
 #displayAnswer{
-
   background-color: #F4F0BB;
-  margin: 0 auto;
+  margin-top: 5px;
   display: inline-block;
   box-sizing: border-box;
   height: 60px;
@@ -68,31 +71,25 @@ h1{
 }
 
 .question{
-  
   background-color: #F4F0BB;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
   padding: 20px;
-  height: 60px;
+  min-height: 60px;
   border-radius: 5px;
-
-  width:60%;
-
+  min-width: 250px;
+  width: 60%;
 }
 
 #displayQuest{
-
   background-color: #F4F0BB;
   display: inline-block;
-
 }
 
 #displayQuestText{
-
   background-color: #F4F0BB;
   display: inline-block;
-
 }
 
 .scoreBox{
@@ -101,7 +98,8 @@ h1{
 
 #p1ScoreBox,#p2ScoreBox {
   /*border: 2px blue solid;*/
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin-top: 5px;
   display: inline-block;
   box-sizing: border-box;
   height: 60px;
@@ -117,8 +115,6 @@ h1{
 #p2ScoreBox {
   background-color: #febbbb;
 }
-
-
 
 #restartButton{
   background-color: grey;
